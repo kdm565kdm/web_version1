@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>刘锡宁的个人主页</title>
+<link rel="stylesheet" href="CSS/message_style_phone.css" type="text/css">
+ <script src="JS/jquery.min.js"></script>
+<meta name="viewport" content="device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="container">
+    <header id="head">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;留言</p>
+    </header id="head">
+    <article id="life_main">
+        <form id="form1">
+            <h3>你的名字：</h3>
+            <input type="text" size="16" placeholder="请输入您的姓名" id="name">
+            <h3>留言内容：</h3>
+            <textarea placeholder="在这里填写您的留言" id="message"></textarea>
+            <input type="button" value="提交" id="sub">
+        </form>
+        <hr>
+       <a href="../indexMe.html" id="A">首页</a>
+    </article>
+    <footer><p>&copy;刘锡宁&nbsp;南京晓庄学院方山校区</p></footer>
+    </div>
+    <dialog id="name_error">
+    <form>
+        <h1>未输入你的名字</h1>
+        <input type="button" value="确定" id="check_name">
+    </form>
+    </dialog>
+    <dialog id="message_error">
+    <form>
+        <h1>请填写留言</h1>
+        <input type="button" value="确定" id="check_message">
+    </form>
+    </dialog>
+    <dialog id="name_message_error">
+    <form>
+        <h3>请输入你的名字并填写留言</h3>
+        <input type="button" value="确定" id="check_name_message">
+    </form>
+    </dialog>
+    <dialog id="success">
+    <form>
+        <h1>表单提交成功</h1>
+        <input type="button" value="确定" id="check_success">
+    </form>
+    </dialog>
+ <script src="JS/form_submit.js"></script>
+<script src="JS/header_top.js"></script>
+</body>
+</html>

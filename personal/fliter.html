@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>刘锡宁的个人主页</title>
+<link rel="stylesheet" href="CSS/fliter_style_phone.css" type="text/css">
+ <script src="JS/jquery.min.js"></script>
+<meta name="viewport" content="device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="container">
+    <header id="head">
+        <p>修图滤镜</p>
+    </header id="head">
+    <br>
+    <br>
+    <div class="waterfall">
+<div class="item" id="image"><img id="ps" alt="图片">
+</div>
+<div class="item">
+<br>
+<div id="inner">
+<label>请选择一个图像文件：</label><br><br><input type="file" id="file">
+<br>
+<br>
+<input type="button" value="读取图像" id="read"/>
+<br>
+<br>
+<select id="fliter">
+<option id="gray" value="请选择滤镜">请选择滤镜</option>
+    <option id="gray" value="灰度滤镜">灰度滤镜</option>
+    <option id="sepia" value="褐色滤镜">褐色滤镜</option>
+    <option id="saturate" value="饱和度">饱和度</option>
+    <option id="color_circle" value="色彩环滤镜">色彩环滤镜</option>
+    <option id="invert" value="颜色翻转">颜色翻转</option>
+    <option id="opacity" value="透明度滤镜">透明度滤镜</option>
+    <option id="contrast" value="对比度">对比度</option>
+    <option id="mohu" value="模糊滤镜">模糊滤镜</option>
+</select>
+<input id="range1" type="range" value="0" min="0" max="200" step="1"></div></div>
+</div>
+        <br>
+        <br>
+       <a href="../indexMe.html" id="A">首页</a>
+       <br>
+       <br>
+    </article>
+    <footer><p>&copy;刘锡宁&nbsp;南京晓庄学院方山校区</p></footer>
+    </div>
+ <script src="JS/fliter.js"></script>
+<script src="JS/header_top.js"></script>
+</body>
+</html>
